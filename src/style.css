@@ -1,0 +1,1109 @@
+@font-face {
+	font-family: 'InterstateBold';
+	src: url('../assets/theme/font/interstatebold-webfont.eot');
+	src: local('☺'), url('../assets/theme/font/interstatebold-webfont.woff') format('woff'), url('/web/20110628202546im_/http://www.vlingo.com/themes/vlingo/font/interstatebold-webfont.ttf') format('truetype'), url('/web/20110628202546im_/http://www.vlingo.com/themes/vlingo/font/interstatebold-webfont.svg#webfontCml4TUil') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+	width: 100%;
+	background: url("../assets/theme/container-bck.png") repeat left top;
+	color: #6c6e6f;
+	font-size: 12px;
+	font-family: helvetica, verdana, arial, sans-serif;
+}
+
+* { margin: 0; padding: 0; }
+
+i { display: none; }
+
+.clear { clear: both; }
+
+img { border: none; }
+
+a {
+	color: #058ac5;
+	text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+	color: #0176af;
+}	
+h1 {
+	color: #0176af;
+	font-size: 50px;
+	line-height: 45px;
+	margin-bottom: 10px;
+	letter-spacing: -1px;
+	font-family: 'InterstateBold', helvetica, arial, sans-serif;
+}
+h2  {
+	color: #0176af;
+	font-size: 20px;
+	font-weight: normal;
+	margin-bottom: 15px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #e8e8e8;
+	font-family: verdana, sans-serif;
+}
+h3 {
+	font-size: 16px;
+	color: #272a2b;
+	font-weight: normal;
+	margin-bottom: 22px;
+	font-family: verdana, sans-serif;
+}
+h4 {
+	font-size: 14px;
+	color: #272a2b;
+	margin-bottom: 22px;
+	font-family: verdana, sans-serif;
+}
+p {
+	color: #6c6e6f;
+	font-size: 12px;
+	line-height: 22px;
+	margin-bottom: 20px;
+}
+html {
+	background: url("../assets/theme/img/container-bck.png") repeat left top;
+}
+#headerWrap {
+	width: 100%;
+	min-width: 960px;
+	height: 84px;
+	background: url("../assets/theme/img/header-top-bck.gif") repeat-x left top;
+}
+#header {
+	width: 960px;
+	margin: 0px auto;
+}
+a#logo {
+	float: left;
+	width: 132px;
+	height: 47px;
+	margin-top: 26px;
+	background: url("../assets/theme/logo-2.png") no-repeat left top;
+}
+
+#menu {
+	float: right;
+	width: 755px;
+	height: 32px;
+	margin-top: 26px;
+}
+#menu ul {
+	position: relative;
+	list-style-type: none;
+	z-index: 1000;
+}
+#menu ul li{
+	display: block;
+	float: left;
+	margin-left: 14px;
+	font-family: helvetica, arial, sans-serif;
+}
+#menu ul li a{
+	float: left;
+	height: 32px;
+	color: #9c9898;
+	font-size: 14px;
+	padding: 8px 18px 0px 18px;
+	font-weight: bold;
+	position: relative;
+	z-index: 500;
+}
+#menu ul li a:hover {
+	color: #4d4d4d;
+}
+#menu ul li.active a {
+	color: #fff;
+}
+#menu ul li.active a.m01{
+	background: url("../assets/theme/img/menu/01.png") no-repeat left top;
+}
+#menu ul li.active a.m02{
+	background: url("../assets/theme/img/menu/02.png") no-repeat left top;
+}
+#menu ul li.active a.m03{
+	background: url("../assets/theme/img/menu/03.png") no-repeat left top;
+  width: 110px;
+}
+#menu ul li.active a.m04{
+	background: url("../assets/theme/img/menu/04.png") no-repeat left top;
+}
+#menu ul li.active a.m05{
+	background: url("../assets/theme/img/menu/05.png") no-repeat left top;
+}
+#menu ul li.active a.m06{
+	background: url("../assets/theme/img/menu/06.png") no-repeat left top;
+}
+
+/* drop down menu styles */
+#menu ul div a {	
+	position: relative;
+	display: block;
+	height: auto;
+	line-height: 22px;
+	width: auto;
+	margin-left: 40px;
+	color: #767676 !important;
+	font-size: 12px;
+	white-space: nowrap;
+	padding: 0px;
+	font-family: helvetica, sans-serif;
+}
+#menu ul div a:hover {	
+	color: #4d4d4d !important;
+}
+#menu ul div#m2, #menu ul div#m3, #menu ul div#m4,
+#menu ul div#m5, #menu ul div#m6{	
+	position: absolute;
+	z-index: 300;
+	top: 15px;
+	display: block;
+	padding-top: 24px;
+	visibility: hidden;
+	padding-bottom: 15px;
+}
+#menu ul div#m2 {	
+	width: 167px;
+	right: 520px;
+	background: url("../assets/theme/img/dropdown-phones.png") no-repeat left bottom;
+  background-size: 100% 100%;
+}
+#menu ul div#m3 {	
+	width: 188px;
+	right: 385px;
+	background: url("../assets/theme/img/dropdown-about.png") no-repeat left bottom;
+}
+#menu ul div#m4 {	
+	width: 218px;
+	right: 203px;
+	background: url("../assets/theme/img/dropdown-distracted.png") no-repeat left bottom;
+}
+#menu ul div#m5 {	
+	width: 185px;
+	right: 62px;
+	padding-top: 16px;
+	background: url("../assets/theme/img/dropdown-partners.png") no-repeat left bottom;
+}
+#menu ul div#m6 {	
+	width: 146px;
+	right: -35px;
+	background: url("../assets/theme/img/dropdown-blog.png") no-repeat left bottom;
+}
+#menu ul div#m2 a{	
+	width: 96px;
+}
+#menu ul div#m3 a{	
+	width: 128px;
+}
+#menu ul div#m4 a{	
+	width: 158px;
+}
+#menu ul div#m5 a{	
+	width: 125px;
+}
+#menu ul div#m6 a{	
+	width: 86px;
+}
+
+
+#container {
+	width: 100%;
+	padding-top: 20px;
+	background: url("../assets/theme/img/container-bck.png") repeat left top;
+}
+
+#imagery {
+	width: 960px;
+	margin: 0px auto;
+	height: 402px;
+	position: relative;
+	background: url("../assets/theme/img/header-homepage.png") no-repeat left top;
+}
+#imagery h1 {
+	position: absolute;
+	top: 102px;
+	left: 240px;
+	width: 273px;
+	height: 85px;
+	z-index: 50;
+	background: url("../assets/theme/img/home-tagline.png") no-repeat left top;
+}
+#imagery p.download {
+	position: absolute;
+	top: 212px;
+	left: 245px;
+}
+#imagery p.download a{
+	width: 270px;
+	height: 52px;
+	display: block;
+	background: url("../assets/theme/img/btn-download.png") no-repeat left top;
+}
+#imagery p.download a:hover{
+	background: url("../assets/theme/img/btn-download.png") no-repeat left bottom;
+}
+#imagery .lady {
+	position: absolute;
+	top: 32px;
+	left: -14px;
+	width: 258px;
+	height: 345px;
+	z-index: 10;
+	background: url("../assets/theme/img/home-lady.png") no-repeat left top;
+}
+#imagery .h-bubble01 p, #imagery .h-bubble02 p, 
+#imagery .h-bubble03 p, #imagery .h-bubble04 p{
+	line-height: 15px;
+	font-size: 12px;
+	color: #000;
+	font-family: helvetica, arial, sans-serif;
+}
+
+#imagery > div > img {
+  height: 128px;
+  box-shadow: 5px 5px 30px 0px rgba(0,0,0,0.25);
+}
+
+#imagery .h-bubble01 {
+	position: absolute;
+	top: 230px;
+	right: 125px;
+	width: 188px;
+	height: 52px;
+	padding: 35px 30px 30px 40px;
+}
+#imagery .h-bubble02 {
+	position: absolute;
+	top: 0px;
+	left: 135px;
+	width: 188px;
+	height: 54px;
+	z-index: 20;
+	padding: 40px 30px 35px 40px;
+}
+#imagery .h-bubble03 {
+	position: absolute;
+	top: 0px;
+	left: 345px;
+	width: 188px;
+	height: 54px;
+	padding: 35px 30px 30px 40px;
+}
+#imagery .h-bubble04 {
+	position: absolute;
+	top: 0px;
+	right: 115px;
+	width: 137px;
+	height: 44px;
+	padding: 35px 30px 30px 30px;
+}
+
+#subnavWrap {
+	width: 100%;
+	height: 54px;
+	background: url("../assets/theme/img/subnav-bck.png") repeat-x left top;
+}
+#subnav {
+	width: 960px;
+	height: 54px;
+	margin: 0px auto;
+	position: relative;
+	z-index: 20;
+}
+#subnav p.breadcrumb {
+	font-size: 11px;
+	color: #e1e5e8;
+	height: 20px;
+	margin-bottom: 7px;
+	text-transform: lowercase;
+}
+#subnav p.breadcrumb a {
+	color: #a8abad;
+	margin: 0px 5px;
+}
+#subnav p.breadcrumb a:hover {
+	color: #e1e5e8;
+	text-decoration: none;
+}
+ul.subnavMenu {
+	position: absolute;
+	z-index: 50;
+	left: -10px;
+	top: 28px;
+	list-style-type: none;
+}
+ul.subnavMenu li{
+	float: left;
+	_width: 150px;
+	padding-left: 32px;
+	text-transform: uppercase;
+}
+ul.subnavMenu li a{
+	color: #636363;
+	display: block;
+	height: 36px;
+	padding-top: 2px;
+	font-weight: bold;
+	padding-right: 32px;
+}
+ul.subnavMenu li.selected a, ul.subnavMenu li a:hover{
+	color: #fff;
+	font-weight: bold;
+}
+
+
+
+#content {
+	width: 960px;
+	margin: 18px auto 0px auto;
+	padding-bottom: 30px;
+	position: relative;
+}
+
+/* left side styles */
+.leftSide {
+	float: left;
+	width: 550px;
+	padding: 0px 60px 0px 0px;
+}
+.leftSide ul{
+	margin-lefT: 20px;
+	margin-bottom: 20px;
+}
+.leftSide ul li{
+	line-height: 20px;
+}
+.leftSide ul.phoneList {
+	list-style-type: none;
+	margin-left: 0px;
+}
+.leftSide ul.phoneList li{
+	float: left;
+	height: 55px;
+	padding: 0px 20px;
+	border-right: 1px solid #d3d3d3;
+}
+.leftSide ul.phoneList li.firstItem{
+	padding-left: 0px;
+	padding-right: 21px;
+}
+.leftSide ul.phoneList li.lastItem{
+	border-right: 0px;
+}
+.leftSide ul.phoneList li a{
+	height: 55px;
+	display: block;
+}
+.leftSide ul.phoneList li a.phones01{
+	width: 47px;
+	background: url("../assets/theme/img/logo-apple.gif") no-repeat left top;
+}
+.leftSide ul.phoneList li a.phones02{
+	width: 44px;
+	background: url("../assets/theme/img/logo-android.gif") no-repeat left top;
+}
+.leftSide ul.phoneList li a.phones03{
+	width: 52px;
+	background: url("../assets/theme/img/logo-blackberry.gif") no-repeat left top;
+}
+.leftSide ul.phoneList li a.phones04{
+	width: 72px;
+	background: url("../assets/theme/img/logo-nokia.gif") no-repeat left top;
+}
+.leftSide ul.phoneList li a.phones05{
+	width: 53px;
+	background: url("../assets/theme/img/logo-windows.gif") no-repeat left top;
+}
+.leftSide ul.phoneList li a:hover {
+	background-position: left bottom;
+}
+
+.leftSide h1.howVlingoWork {
+	height: 49px;
+	width: 500px;
+	background: url("../assets/theme/img/title-how-does-vlingo-work.png") no-repeat left top;
+}
+.leftSide h1.android {
+	height: 49px;
+	width: 500px;
+	background: url("../assets/theme/img/title-vlingo-for-android.png") no-repeat left top;
+}
+
+.leftSide .slider {
+	float: left;
+	width: 630px;
+	margin-left: -17px;
+	position: relative;
+	z-index: 0;
+	*margin-left: -18px;
+}
+.leftSide .example {
+	position: relative;
+	width: 530px;
+	height: 280px;
+	margin: 30px 0px;
+	padding-top: 25px;
+	padding-left: 22px;
+	background: url("../assets/theme/img/android-example.png") no-repeat left top;
+}
+.leftSide .example p{
+	margin-bottom: 0px;
+	line-height: 27px;
+}
+.leftSide .example #biker{
+	position: absolute;
+	width: 234px;
+	height: 286px;
+	left: 305px;
+	top: -10px;
+	background: url("../assets/theme/img/android-biker.png") no-repeat left top;
+}
+.leftSide .example #androidBubble{
+	position: absolute;
+	width: 165px;
+	height: 85px;
+	left: 428px;
+	top: -40px;
+	padding: 30px 30px 0px 50px;
+	background: url("../assets/theme/img/android-bubble.png") no-repeat left top;
+}
+.leftSide .example #androidBubble p{
+	color: #000;
+	font-size: 13px;
+	line-height: 16px;
+}
+
+.leftSide p.watchVideo a{
+	padding: 14px 0px 20px 85px;
+	background: url("../assets/theme/img/icon-camera.png") no-repeat left top;
+}
+/*.leftSide p.watchVideo a:hover{
+	background: url("../assets/theme/img/icon-camera-over.png") no-repeat left top;
+}*/
+
+#gallery01, #gallery02, #gallery03 {
+	width: 630px;
+	height: 417px;
+}
+#gallery01 {
+	background: url("../assets/theme/img/vlingo-overview01.jpg") no-repeat left top;
+}
+#gallery02 {
+	background: url("../assets/theme/img/vlingo-overview02.jpg") no-repeat left top;
+}
+#gallery03 {
+	background: url("../assets/theme/img/vlingo-overview03.jpg") no-repeat left top;
+}
+#gallery01 .bubble, 
+#gallery02 .bubble,
+#gallery03 .bubble{
+	width: 209px;
+	height: 96px;
+	position: absolute;
+	background: url("../assets/theme/img/bubble-about.png") no-repeat left top;
+}
+#gallery03 .bubble{
+	width: 185px;
+	height: 92px;
+	position: absolute;
+	background: url("../assets/theme/img/bubble-about-small.png") no-repeat left top;
+}
+#gallery01 .bubble {
+	left: 20px;
+	top: 5px;
+	width: 169px;
+	height: 71px;
+	padding: 25px 0px 0px 40px;
+}
+#gallery02 .bubble {
+	left: 20px;
+	top: 10px;
+	width: 154px;
+	height: 81px;
+	padding: 15px 0px 0px 55px;
+}
+#gallery03 .bubble {
+	left: 40px;
+	top: 20px;
+	width: 140px;
+	height: 60px;
+	padding: 32px 0px 0px 45px;
+}
+#gallery .bubble p{
+	line-height: 16px;
+	font-size: 13px;
+	color: #000;
+	font-family: helvetica, arial, sans-serif;
+}
+#gallery .bubble p span{
+	color: #0176af;
+}
+
+/* right side styles */
+.rightSide {
+  float: left;
+  width: 350px;
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+.rightSide p {
+	line-height: 17px;
+}
+.rightSide p.posted {
+	color: #272a2b;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.rightSide p em{
+	color: #6c6e6f;
+	font-family: helvetica, sans-serif;
+}
+.rightSide .like {
+	float: right;
+	padding-top: 4px;
+}
+.rightSide .follow {
+	float: left;
+}
+.rightSide .follow a{
+	float: left;
+	margin-right: 10px;
+}
+
+.rightSide ul.phoneList {
+	list-style-type: none;
+}
+.rightSide ul.phoneList li{
+	float: left;
+	height: 44px;
+	padding: 0px 14px;
+	margin-bottom: 30px;
+	border-right: 1px solid #d3d3d3;
+}
+.rightSide ul.phoneList li.firstItem{
+	padding-left: 1px;
+	padding-right: 14px;
+	*padding-left: 0px;
+}
+.rightSide ul.phoneList li.lastItem{
+	border-right: 0px;
+	padding-right: 0px;
+	padding-left: 13px;
+}
+.rightSide ul.phoneList li a{
+	height: 40px;
+	display: block;
+}
+.rightSide ul.phoneList li a.phones01{
+	width: 42px;
+	background: url("../assets/theme/img/logo-apple-small.gif") no-repeat left top;
+}
+.rightSide ul.phoneList li a.phones02{
+	width: 33px;
+	background: url("../assets/theme/img/logo-android-small.gif") no-repeat left top;
+}
+.rightSide ul.phoneList li a.phones03{
+	width: 42px;
+	background: url("../assets/theme/img/logo-blackberry-small.gif") no-repeat left top;
+}
+.rightSide ul.phoneList li a.phones04{
+	width: 58px;
+	background: url("../assets/theme/img/logo-nokia-small.gif") no-repeat left top;
+}
+.rightSide ul.phoneList li a.phones05{
+	width: 42px;
+	background: url("../assets/theme/img/logo-windows-small.gif") no-repeat left top;
+}
+.rightSide ul.phoneList li a:hover {
+	background-position: left bottom;
+}
+
+.rightSide p.download {
+	padding-left: 34px;
+}
+.rightSide p.download a{
+	width: 270px;
+	height: 52px;
+	display: block;
+	background: url("../assets/theme/img/btn-download.png") no-repeat left top;
+}
+.rightSide p.download a:hover{
+	background: url("../assets/theme/img/btn-download.png") no-repeat left bottom;
+}
+
+.rightSide p.buyVlingo{
+	margin-bottom: 0px;
+	padding-left: 55px;
+}
+
+.rightSide p.buyVlingo a{
+	width: 270px;
+	height: 52px;
+	display: block;
+	background: url("../assets/theme/img/btn-download.png") no-repeat left top;
+}
+.rightSide p.buyVlingo a:hover{
+	background: url("../assets/theme/img/btn-download.png") no-repeat left bottom;
+}
+
+.rightSide p.phone {
+	text-align: right;
+}
+.rightSide p.buyText{
+	text-align: center;
+	padding-left: 45px;
+}
+
+/* full width page styles */
+.fullWidth h1 {
+	margin-bottom: 20px;
+}
+
+/* footer styles */
+
+#footerWrap {
+	width: 100%;
+	min-width: 962px;
+	height: 100%;
+	background: #acaeb1 url("../assets/theme/img/footer-bck.png") repeat-x left top;
+}
+
+#footer {
+	width: 962px;
+	min-height: 154px;
+	*height: 154px;
+	margin: 0px auto;
+	padding-top: 16px;
+}
+#footer p {
+	color: #595a5c;
+}
+#footer a {
+	color: #d2d6db;
+}
+#footer a:hover {
+	color: #f3f5f7;
+	text-decoration: none;
+}
+#langs {
+	float: right;
+	width: 217px;
+	height: 20px;
+	padding-top: 5px;
+	padding-left: 10px;
+	margin-bottom: 5px;
+	background: url("../assets/theme/img/lang-bar.png") no-repeat right top;
+}
+#langs p {
+	font-size: 10px !important;
+	line-height: 14px;
+	margin-bottom: 0px;
+	font-family: verdana, sans-serif;
+}
+#langs span{
+	color: #f3f5f7;
+}
+
+#footerBar {
+	float: left;
+	width: 930px;
+	height: 42px;
+	padding: 25px 11px 0px 21px;
+	background: url("../assets/theme/img/footer-bar.png") no-repeat left top;
+}
+#footerBar p{
+	font-size: 11px;
+	margin-bottom: 0px;
+	line-height: 15px;
+	font-family: verdana, sans-serif;
+}
+#footerBar p.footerLinks{
+	float: right;
+}
+
+#footerBar a.selected{
+	color: #f3f5f7;
+}
+
+#footerBar a{
+	margin: 0px 10px;
+}
+
+img.hidden {
+	background: red;
+	border: 1px solid red;
+	display: none !important;
+}
+
+/* downloads page */
+
+#imagery.downloadsPage {
+	background: url("../assets/theme/img/header-downloads.jpg") no-repeat left top;
+}
+#imagery.downloadsPage h1{
+	position: absolute;
+	top: 58px;
+	left: 75px;
+	width: 802px;
+	height: 51px;
+	z-index: 50;
+	background: url("../assets/theme/img/title-choose-provider.png") no-repeat left top;
+}
+#imagery ul.downloadLogos {
+	list-style-type: none;
+	position: absolute;
+	left: 60px;
+	top: 140px;
+}
+#imagery ul.downloadLogos li{
+	float: left;
+}
+#imagery ul.downloadLogos li a{
+	display: block;
+	height: 158px;
+}
+#imagery ul.downloadLogos li a.downiPhone{
+	width: 120px;
+	margin-right: 67px;
+	background: url("../assets/theme/img/download-iphone-off.png") no-repeat left top;
+}
+#imagery ul.downloadLogos li a.downiPhone:hover{
+	background: url("../assets/theme/img/download-iphone-on.png") no-repeat left top;
+}
+#imagery ul.downloadLogos li a.downAndroid{
+	width: 88px;
+	margin-right: 52px;
+	background: url("../assets/theme/img/download-android-off.png") no-repeat left top;
+}
+#imagery ul.downloadLogos li a.downAndroid:hover{
+	background: url("../assets/theme/img/download-android-on.png") no-repeat left top;
+}
+#imagery ul.downloadLogos li a.downBBerry{
+	width: 134px;
+	margin-right: 41px;
+	background: url("../assets/theme/img/download-blackberry-off.png") no-repeat left top;
+}
+#imagery ul.downloadLogos li a.downBBerry:hover{
+	background: url("../assets/theme/img/download-blackberry-on.png") no-repeat left top;
+}
+#imagery ul.downloadLogos li a.downNokia{
+	width: 173px;
+	margin-right: 40px;
+	background: url("../assets/theme/img/download-nokia-off.png") no-repeat left top;
+}
+#imagery ul.downloadLogos li a.downNokia:hover{
+	background: url("../assets/theme/img/download-nokia-on.png") no-repeat left top;
+}
+#imagery ul.downloadLogos li a.downWindows{
+	width: 124px;
+	background: url("../assets/theme/img/download-windows-off.png") no-repeat left top;
+}
+#imagery ul.downloadLogos li a.downWindows:hover{
+	background: url("../assets/theme/img/download-windows-on.png") no-repeat left top;
+}
+
+/* download form page */
+#imagery.downloadFormPage {
+	background: url("../assets/theme/img/header-download-form.jpg") no-repeat left top;
+}
+#imagery.downloadFormPage .downHeaderText {
+	position: absolute;
+	top: 60px;
+	left: 620px;
+	width: 280px;
+}
+#imagery.downloadFormPage .downHeaderText h1{
+	width: 109px;
+	height: 44px;
+	z-index: 50;
+	margin-bottom: 0px;
+	position: static;
+	background: url("../assets/theme/img/title-or.png") no-repeat left top;
+}
+#imagery.downloadFormPage .downHeaderText p{
+	color: #fff;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+#imagery.downloadFormPage .downHeaderText p a{
+	color: #fff;
+	font-weight: bold;
+}
+#imagery.downloadFormPage .downHeaderText p.downloadNow{
+	font-size: 20px;
+	color: #8bddff;
+}
+.downloadForm {
+	width: 513px;
+	height: 307px;
+	position: absolute;
+	left: 45px;
+	top: 38px;
+	padding: 22px 24px 0px 24px;
+	background: url("../assets/theme/img/send-down-link-bck.png") no-repeat left top;
+}
+.downloadForm h2{
+	border: 0px;
+	padding: 0px;
+	margin-bottom: 10px;
+}
+.downloadForm p{
+	font-size: 12px;
+	line-height: 17px;
+	margin-bottom: 15px;
+}
+.downloadForm .formBox {
+	float: left;
+	width: 185px;
+	margin-left: 45px;
+}
+.downloadForm .formBox em{
+	font-size: 11px;
+	line-height: 18px;
+	float: left;
+	margin-right: 5px;
+}
+.downloadForm .formBox input.checkBox{
+	margin-top: 2px;
+	*margin-top: 0px;
+}
+.downloadForm .formBox .activeBox{
+	height: 78px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding-top: 25px;
+	padding-left: 14px;
+	background: url("../assets/theme/img/box-phonenumber.png") no-repeat left top;
+}
+.downloadForm .formBox .smsBox{
+	height: 90px;
+	padding-top: 13px;
+}
+.downloadForm .formBox .activeBox h3{
+	margin-bottom: 12px;
+}
+.downloadForm .formBox .activeBox input{
+	width: 41px;
+	height: 17px;
+	background: #f2f2f2;
+	border: 1px solid #dfdfdf;
+}
+.downloadForm .formBox .activeBox input.lastPhoneInput{
+	width: 60px;
+}
+.downloadForm .formBox .activeBox input.emailInput{
+	width: 155px;
+	height: 17px;
+}
+
+/* for disabled box */
+.downloadForm .formBox .disabled{
+	background: url("../assets/theme/img/box-emailaddress.png") no-repeat left top;
+}
+.downloadForm .formBox .disabled h3{
+	margin-bottom: 12px;
+	color: #c8c8c8;
+}
+.downloadForm .formBox .disabled input.phoneNr{
+	background: #fafafa;
+	color: #fafafa !important;
+	border: 1px solid #f5f5f5;
+}
+
+.downloadForm h2.or {
+	position: absolute;
+	left: 260px;
+	top: 170px;
+}
+.downloadForm .submitBtn {
+	width: 242px;
+	height: 54px;
+	border: 0px;
+	cursor: pointer;
+	position: absolute;
+	left: 150px;
+	top: 265px;
+	background: url("../assets/theme/img/btn-submit.png") no-repeat left top;
+        z-index: 1;
+}
+
+/* error form overlay */
+.errorFormContainer {
+	background: #fff;
+	position: absolute;
+	left: 65px;
+	top: 60px;
+	z-index: 100;
+	opacity: .9;
+	filter:alpha(opacity=90);
+}
+.thankYouFormContainer {
+	background: #fff;
+	position: absolute;
+	left: 65px;
+	top: 60px;
+	z-index: 100;
+	opacity: .9;
+	filter:alpha(opacity=90);
+}
+
+.errorForm {
+	width: 400px;
+	height: 240px;
+	text-align: center;
+	padding: 60px 60px 0px 60px;
+}
+#imagery .errorForm h1 {
+	position: static;
+	width: auto;
+	height: auto;
+	background: none;
+	margin-bottom: 20px;
+}
+#imagery .errorForm p{
+	color: #000;
+	font-size: 16px;
+	*font-weight: bold;
+	margin: 0px 20px 20px 20px;
+}
+#imagery .errorForm p a{
+	font-size: 12px;
+}
+
+/* Liviu's css */
+
+.activeBox input{
+    width: 155px !important;
+    margin-bottom: 5px;
+}
+.activeBox input.phoneNr {
+	color: #6c6e6f;
+	font-size: 13px;
+	padding: 1px 4px 2px 4px;
+	margin-bottom: 7px;
+	width: 147px !important;
+}
+.activeSelect{
+    background-color: #ffffff !important;
+    border:1px solid #DFDFDF !important;
+}
+.disabled .selectHolder{
+	background: #fafafa;
+	border: 1px solid #f5f5f5;
+    overflow: hidden;
+}
+.disabled .selectHolder span{    
+    color: #fafafa;
+}
+.selectHolder{
+    position: relative;
+    width: 152px;
+    height: 17px;
+    overflow: hidden;
+    background: #F2F2F2 url("../assets/theme/img/arrow.png") 140px 7px no-repeat;
+    border:1px solid #DFDFDF;
+    padding: 1px 0px 1px 3px;
+    margin-bottom: 7px;
+}
+#countrySelector {
+	z-index: 9999;
+}
+#carriersSelector {
+	z-index: 9900;
+}
+.selectHolder span{
+    color: #6c6e6f;
+    padding-left: 5px;
+    padding-top: 2px;
+    cursor: pointer;
+    width: 100%;
+}
+.selectHolder ul{
+    position: relative;
+    width: 137px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f2f2f2;
+    margin-top: 4px;
+    margin-left: -4px;
+    z-index: 99999;
+}
+.selectHolder ul li{
+    list-style: none;    
+    padding-top: 1px;
+    line-height: 24px;
+    cursor: pointer;
+    border-bottom: 1px solid #dfdfdf;
+}
+.inactive{
+    background: #f2f2f2;
+	border: 1px solid #f2f2f2;
+}
+.selectHolder ul li.lastItem{
+    border-bottom: none;
+}
+
+.selectHolder ul li a:hover{
+    color: #272A2B;
+}
+.selectHolder ul li a{
+    color: #6C6E6F;
+    width: 100%;
+}
+
+#recentActivity {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#recentActivity > p {
+  border-width: 1px;
+  border-style: solid;
+  margin: 10px;
+  padding: 8px;
+  box-shadow: 9px 10px 5px -1px rgba(0,0,0,0.19);
+}
+
+.videos-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.videos-container > * {
+  margin: 8px;
+  height: 144px !important;
+}
+
+.rightSide {
+  width: 350px;
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.videos-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 350px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.rightSide .videos-container > * {
+  margin: 8px;
+  height: 144px !important;
+  width: calc(100% - 16px);
+  object-fit: cover;
+  display: block;
+}
+
+.videos-container > img {
+  box-shadow: 9px 10px 5px -1px rgba(0,0,0,0.05);
+}
