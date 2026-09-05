@@ -1065,11 +1065,16 @@ img.hidden {
 #recentActivity > p {
   border-width: 1px;
   border-style: solid;
+  border-color: transparent;
   margin: 10px;
   padding: 8px;
-  box-shadow: 9px 10px 5px -1px rgba(0,0,0,0.19);
+  box-shadow: 9px 10px 5px -1px rgba(0,0,0,0.01);
 }
 
+#recentActivity > p:hover {
+  border-color: rgb(1, 118, 175) !important;
+  box-shadow: 9px 10px 5px -1px rgba(0,0,0,0.19);
+}
 .videos-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

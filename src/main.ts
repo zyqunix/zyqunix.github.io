@@ -24,7 +24,7 @@ const params = new URLSearchParams({
     user: LASTFM_USERNAME,
     api_key: LASTFM_API_KEY,
     format: "json",
-    limit: "3"
+    limit: "4"
 });
 
 const url = `https://ws.audioscrobbler.com/2.0/?${params.toString()}`;
@@ -57,9 +57,9 @@ reviews.slice(0,1).forEach(review => {
 
 //
 let lfm = await fetchLastfm(LASTFM_USERNAME);
-lfm.recenttracks.track.forEach(track => {
+lfm.recenttracks.track.slice(0,4).forEach(track => {
     const e = document.createElement("p");
-    e.style.borderColor = track["@attr"]?.nowplaying === "true" ? "#0176af" : "transparent" 
+    e.style.borderColor = track["@attr"]?.nowplaying === "true" ? "#0176af" : "#e8e8e8" 
     e.innerHTML = `
         <a href="${track.url}" target="_blank")>
             <div class="left-recent">
