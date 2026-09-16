@@ -1299,5 +1299,5 @@ img.hidden {
 }
 
 .now_playing {
-  animation: p 3s infinite ease-in-out;
+  animation: pulse 3s infinite ease-in-out;
 }
