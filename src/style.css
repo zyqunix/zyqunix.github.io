@@ -671,7 +671,7 @@ ul.subnavMenu li.selected a, ul.subnavMenu li a:hover{
 	width: 100%;
 	min-width: 962px;
 	height: 100%;
-	background: #acaeb1 url("../assets/theme/img/footer-bck.png") repeat-x left top;
+	background: #acaeb1 url("../assets/theme/footer-bck.png") repeat-x left top;
 }
 
 #footer {
