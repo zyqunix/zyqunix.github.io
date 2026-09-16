@@ -1294,7 +1294,7 @@ img.hidden {
 
 @keyframes pulse {
   50% {
-    border-color: transparent;
+    border-color: rgb(232, 232, 232);
   }
 }
 
