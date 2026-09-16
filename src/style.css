@@ -668,6 +668,7 @@ ul.subnavMenu li.selected a, ul.subnavMenu li a:hover{
 /* footer styles */
 
 #footerWrap {
+  clear: both;
 	width: 100%;
 	min-width: 962px;
 	height: 100%;
