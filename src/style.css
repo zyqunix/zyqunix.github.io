@@ -435,6 +435,7 @@ ul.subnavMenu li a:hover {
   float: left;
   width: 550px;
   padding: 0px 60px 0px 0px;
+  margin-bottom: 50px;
 }
 
 .leftSide ul {
