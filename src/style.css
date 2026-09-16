@@ -1297,3 +1297,7 @@ img.hidden {
     border-color: transparent;
   }
 }
+
+.now_playing {
+  animation: p 3s infinite ease-in-out();
+}
