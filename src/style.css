@@ -677,7 +677,7 @@ ul.subnavMenu li.selected a, ul.subnavMenu li a:hover{
 #footer {
 	width: 962px;
 	min-height: 154px;
-	*height: 154px;
+	height: 154px;
 	margin: 0px auto;
 	padding-top: 16px;
 }
